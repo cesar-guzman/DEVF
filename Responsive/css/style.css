@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CREACIÓN DE LAYOUTS*/
+
+body {
+    min-height: 100vh;
+    background: chocolate;
+}
+
+
+/*auto es remplazado por algun valor apropiado*/
+/*margin: 0 auto desplazar contenedor en este caso al centro*/
+.contenedor-padre{
+    background-color: green;
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    flex:0 0 300px ; /*flex-grow, flex-shrink, flex-basis*/
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: #456;
+    color: #fff;
+    flex-direction: column;
+}
+
+main{
+    color: #fff;
+    background-color: #678;
+    flex: 1 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}

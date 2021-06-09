@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 50px;
+    background-color: brown;
+    align-items: center;
+}
+
+header #row-encabezado {
+    height: 50px;
+    background-color: white;
+    align-items: center;
+}
+
+header #row-encabezado-seccion-1 {
+    align-items: center;
+}
+
+header .logo-img {
+    padding: 10px;
+}
+
+header #home {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+header #home a:hover{
+    background-color: black;
+}
+
+header #home p{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+header #today {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header #today p{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+header .barra-busqueda {
+    padding-left: 20px;
+}
+
+header .form-control {
+    background-color: rgb(223, 223, 223);
+    border-radius: 80%;
+}
+
